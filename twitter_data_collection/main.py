@@ -1,7 +1,7 @@
 from twitter_collection import authenticate_twitter_v2, collect_tweets
 from tweet_storage import save_tweets_to_csv
 l
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAOHpvgEAAAAAFAtaZgKwCJ1OGxIByyens%2FxXRY0%3Diq9BevETOLDwbFaTgOErO0NGO7ISsb2pOnWHUTFRPiFxY3eqmG'
+BEARER_TOKEN = 'your bearer token'
 
 if __name__ == "__main__":
     client = authenticate_twitter_v2(BEARER_TOKEN)
